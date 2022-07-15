@@ -1,8 +1,8 @@
 import styles from './App.module.css'
 import { useState } from 'react';
 import Users from '../Users/Users';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Spinner from 'react-bootstrap/Spinner';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   const [users,setusers] = useState([]);
