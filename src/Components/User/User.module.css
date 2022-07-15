@@ -1,0 +1,27 @@
+.user_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 1rem;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid blue;
+    background-color: rgb(194, 234, 230);
+    border-radius: 5px;
+}
+
+.user_img{
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+.details_container{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    color: blue;
+}
