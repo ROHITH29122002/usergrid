@@ -7,10 +7,12 @@
     margin-bottom: 1rem;
     border: 2px solid blue;
     background-color: rgb(194, 234, 230);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .user_img{
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 2px solid blue;
 }
@@ -24,6 +26,7 @@
     justify-content: space-around;
     flex-direction: column;
     color: blue;
+    border: 2px solid black;
 }
 
 @media screen and (max-width:550px){

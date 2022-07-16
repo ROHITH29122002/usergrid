@@ -14,7 +14,7 @@
     background-color: white;
     border-radius: 15px;
     font-weight: bold;
-    color: blue;
+    color: rgb(42, 131, 233);
 }
 
 .getusers_heading{
@@ -26,6 +26,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(9,9,121);
+background: linear-gradient(90deg, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 100%);
 }
 
 .users_container{
